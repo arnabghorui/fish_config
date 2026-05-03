@@ -34,9 +34,3 @@ bind \es fdcd
 # starship init fish | source
 
 
-# Fish git prompt
-set -g __fish_git_prompt_show_informative_status 1
-set -g __fish_git_prompt_showupstream "informative"
-set -g __fish_git_prompt_color_branch magenta bold
-set -g __fish_git_prompt_char_dirtystate "✚"
-set -g __fish_git_prompt_char_cleanstate "✔"   
